@@ -27,6 +27,3 @@ There are two test files also available, showing how to use these two functions.
 ## How the Input Data Set should be formatted?
 X is the independent variable and Y is the dependent variable. Y must be a double precision vector of nx1 where n is the number of samples or ovservations. X should be a double precision matrix of size nxm where m is the number of independent variables. Each row in X should correspond to the same row of Y.
 
-$A=\frac{1}{2}$
-
-
