@@ -5,7 +5,7 @@
 1. **Phase 1:**
   1. **Part 1:** Using PLSR, establishes a predictive model to estimate *Y*. This is denoted as *YP*.
   2. **Part 2:** Using PLSR, establishes a predictive model to estimate the error of *YP*. This is denoted as *ErrP*, or predicted error.
-2. **Phase 2:** uses ANFIS to establish a predictive model to estimate *Y*, using *YP* and *ErrP* as the model input. This is denoted as *modYP*.
+2. **Phase 2:** uses ANFIS to establish a predictive model to estimate *Y*, using *YP* and *ErrP* as its input. This is denoted as *modYP*.
 
 ## How to use the code?
 there are couple of MATLAB codes available under MCode directory. The two main functions are:
