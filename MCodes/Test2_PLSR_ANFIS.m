@@ -5,7 +5,7 @@ close all;
 Data=readtable('../Data/SampleData1.csv');
 
 Y=Data.Y;
-X=table2array(Data);
+X=table2array(Data(:,2:end));
 
 %%
 [result, detail]=PLSR_ANFIS(X, ...
