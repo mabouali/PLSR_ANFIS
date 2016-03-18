@@ -11,16 +11,16 @@
 There are couple of MATLAB codes available under MCode directory. The two main functions are:
 
 ```
-[result, detail]=PLSR_ANFIS(X,Y,inputMFTypes,mfNum)
+[result, detail]=train_PLSR_ANFIS(X,Y,inputMFTypes,mfNum)
 ```
 
 and 
 
 ```
-[modYP,YP,ErrP]=apply_PLSR_ANFIS(X,PLSR_ANFIS_Result)
+[modYP,YP,ErrP]=eval_PLSR_ANFIS(X,PLSR_ANFIS_Result)
 ```
 
-As their name implies the first one is used to train and establish the proposed two phase model and the second one is used to apply the model on a new data set.
+As their name implies the first one is used to train and establish the proposed two phase model and the second one is used to evaluate the model on a new data set.
 
 There are two test files also available, showing how to use these two functions.
 
