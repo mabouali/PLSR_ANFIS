@@ -1,4 +1,4 @@
-function [modYP,YP,ErrP]=apply_PLSR_ANFIS(X,PLSR_ANFIS_Result)
+function [modYP,YP,ErrP]=eval_PLSR_ANFIS(X,PLSR_ANFIS_Result)
 %% Checking inputs
 validateattributes(X,{'double'},{'2d'});
 nIndependentVariables=size(X,2);

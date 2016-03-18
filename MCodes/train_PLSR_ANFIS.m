@@ -1,4 +1,4 @@
-function [result, detail]=PLSR_ANFIS(X,Y,inputMFTypes,mfNum)
+function [result, detail]=train_PLSR_ANFIS(X,Y,inputMFTypes,mfNum)
 %% Initializations
 kFold=10;
 outputMFTypes = {'linear' 'constant'};
